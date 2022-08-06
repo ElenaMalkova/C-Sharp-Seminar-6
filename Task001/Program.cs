@@ -1,7 +1,6 @@
 ﻿//  Пользователь вводит с клавиатуры M чисел. Посчитайте, сколько чисел больше 0 ввёл пользователь.
 
 // Method
-
 int CountPositiveNums(string[] arr)
 {
     int count = 0;
@@ -14,7 +13,6 @@ int CountPositiveNums(string[] arr)
 }
 
 // Code
-
 Console.WriteLine("Введите несколько целых чисел через пробел");
 string[] array = Console.ReadLine().Split(' ', StringSplitOptions.RemoveEmptyEntries);
 Console.WriteLine($"Количество введенных положительных чисел: {CountPositiveNums(array)}");
